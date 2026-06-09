@@ -25,3 +25,4 @@
 | Зубов Пётр Александрович        | zubov_petr            | n/a                                                      |         |
 | Ибрахим Ахмед                   | ibrakhim_akhmed       | n/a                                                      |         |
 | Кабардинский Евгений Олегович   | demo_kab              | https://github.com/ekabardinsky/pi_24_2026_students_demo |         |
+| Плагиатор Плагиатович           | plagiator             | https://github.com/ekabardinsky/pi_24_2026_students_demo |         |
