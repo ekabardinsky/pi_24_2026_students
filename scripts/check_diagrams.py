@@ -68,7 +68,7 @@ API_KEY = os.getenv("RAIP_API_KEY", "")
 BASE_URL = os.getenv("RAIP_BASE_URL", "").rstrip("/")
 # Стандартный путь OpenAI-совместимого шлюза
 CHAT_URL = f"{BASE_URL}/v1/chat/completions"
-MODEL = "claude-sonnet-ccr"
+MODEL = os.getenv("RAIP_MODEL", "claude-sonnet-ccr")
 
 
 def call_llm(system_prompt: str, user_message: str, retries: int = 3) -> str:
@@ -143,15 +143,13 @@ SYSTEM_PROMPT = """Ты — проверяющий UML-диаграмм клас
    требует паттерн Visitor — должны быть интерфейс Visitor и его реализации).
 2. Неправильный тип связи (например, --> вместо <|-- для наследования, --> вместо <|.. для
    реализации интерфейса). Используй UML_GUIDE для определения верного типа.
-3. Принципиально неверная архитектура (нет иерархии наследования там, где она обязательна
-   по условию задачи, нет интерфейса там, где он требуется).
-4. Диаграмма не является classDiagram.
+3. Диаграмма не является classDiagram.
 
 Формат ответа — строго следуй ему, никаких дополнительных пояснений и рассуждений:
 - Если грубых ошибок НЕТ — первая строка: OK
 - Если ошибки ЕСТЬ — нумерованный список, каждый пункт одной строкой.
   Пример: "1. Отсутствует интерфейс IVisitor, который требуется заданием."
-- Мелкие неточности (если есть) — одной строкой в конце: "Мелкие замечания: ..."
+- Мелкие замечания (если есть) — одной строкой в конце: "Мелкие замечания: ..."
 
 Отвечай по-русски."""
 
@@ -373,11 +371,11 @@ def classify_result(text: str | None) -> str:
     if "⚠️ SUSPICIOUS:" in text:
         # Грубые ошибки важнее подозрения на списывание
         first_line = text.strip().splitlines()[0].strip()
-        if not first_line.lower().startswith("мелкие замечания") and not first_line.upper().startswith("OK"):
+        if not first_line.lower().startswith("мелкие ") and not first_line.upper().startswith("OK"):
             return "major"
         return "suspicious"
     first_line = text.strip().splitlines()[0].strip()
-    if first_line.lower().startswith("мелкие замечания"):
+    if first_line.lower().startswith("мелкие "):
         return "minor"
     return "major"
 
