@@ -1,0 +1,26 @@
+# Локальная папка для временных копий репозиториев студентов
+/tmp/
+/scripts/tmp/
+/reference_solutions/
+
+# Системные файлы macOS (крайне важно для работы скриптов на Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Локальные конфиги IDE (если будешь открывать репо в VS Code или Rider)
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Локальные файлы окружения (если скрипт проверки будет использовать API-ключи LLM)
+.env
+.env.local
+*.env.json
