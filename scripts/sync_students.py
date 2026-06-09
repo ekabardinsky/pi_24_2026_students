@@ -25,14 +25,14 @@ def parse_students():
         print(f"❌ Файл {STUDENTS_FILE} не найден!")
         return students
 
-    # Регулярка под 3 колонки: | Студент | Student ID | Репозиторий |
-    row_pattern = re.compile(r'^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|$')
+    # Регулярка под любое количество колонок: берём первые три
+    row_pattern = re.compile(r'^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|')
 
     with open(STUDENTS_FILE, 'r', encoding='utf-8') as f:
         for line in f:
             match = row_pattern.match(line.strip())
             if match:
-                name, student_id, repo = match.groups()
+                name, student_id, repo = match.group(1), match.group(2), match.group(3)
                 # Пропускаем заголовок таблицы и разделители
                 if name.startswith('Студент') or name.startswith(':---'):
                     continue
