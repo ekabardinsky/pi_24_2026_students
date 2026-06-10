@@ -1,1 +1,1 @@
-Мелкие замечания: не указаны типы аргументов в методах `DifferentiationVisitor` и `ExpressionVisitor`.
+Мелкие замечания: В методах `Differentiate` и `Visit` не указаны типы аргументов (например, `f` или `node`).
