@@ -224,7 +224,7 @@ PLAGIARISM_PROMPT = """Ты — детектор плагиата UML-диагр
 Твоя задача — определить, не списал ли проверяемый студент свою диаграмму у кого-то из списка.
 
 Критерии:
-- Полное списывание: отличия лишь в пробелах или порядке строк.
+- Полное идентичность - разница только в пробелах и переводах строк
 - Подозрительное сходство (50–90%): структура и большинство классов совпадают, но есть небольшие отличия.
 - Самостоятельная работа (<50%): заметные структурные отличия, своя нотация.
 
@@ -508,6 +508,48 @@ def calc_grade(student_id: str) -> str:
     return "3"
 
 
+def _is_passed(cell: str) -> bool:
+    """Возвращает True если ячейка содержит зачёт (зачтено/suspicious)."""
+    stripped = cell.strip()
+    return stripped.startswith("зачтено") or stripped.startswith("[зачтено")
+
+
+def _is_failed(cell: str) -> bool:
+    """Возвращает True если ячейка содержит «не зачтено»."""
+    return "не зачтено" in cell
+
+
+def read_current_cells(name: str) -> dict[str, str]:
+    """Читает текущие значения ячеек заданий из results.md для данного студента.
+    Возвращает словарь {task_name: cell_value}.
+    """
+    text = read_file(RESULTS_MD)
+    if not text:
+        return {}
+    task_col_names = [TASK_LABELS[t] for t in TASKS]
+    header_line = None
+    data_line = None
+    for line in text.splitlines():
+        if not line.startswith("|"):
+            continue
+        cols = [c.strip() for c in line.strip().strip("|").split("|")]
+        if "Студент" in cols:
+            header_line = cols
+        elif header_line and cols[0] == name:
+            data_line = cols
+            break
+    if not header_line or not data_line:
+        return {}
+    result = {}
+    for task, label in zip(TASKS, task_col_names):
+        try:
+            idx = header_line.index(label)
+            result[task] = data_line[idx] if idx < len(data_line) else "—"
+        except ValueError:
+            result[task] = "—"
+    return result
+
+
 def update_results_md():
     students = parse_students()
     if not students:
@@ -531,7 +573,16 @@ def update_results_md():
             task_cells = ["—"] * len(TASKS)
         else:
             grade_cell = calc_grade(student_id)
-            task_cells = [cell_text(student_id, task) for task in TASKS]
+            current_cells = read_current_cells(name)
+            task_cells = []
+            for task in TASKS:
+                new_cell = cell_text(student_id, task)
+                old_cell = current_cells.get(task, "—")
+                # Защита: если было зачтено — не понижаем до «не зачтено»
+                if _is_passed(old_cell) and _is_failed(new_cell):
+                    task_cells.append(old_cell)
+                else:
+                    task_cells.append(new_cell)
         cells = [name, grade_cell, commit_time, checked_time] + task_cells
         rows.append("| " + " | ".join(cells) + " |")
 
