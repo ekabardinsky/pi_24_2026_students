@@ -4,11 +4,11 @@
 | Авдеева Анфиса Андреевна        | avdeeva_anfisa        | https://github.com/AnfisaAvdeeva/practice_ulearn_2026.git  |         |
 | Алиев Альберт Динарович         | aliev_albert          | n/a                                                        |         |
 | Амбросов Георгий Эдуардович     | ambrosov_georgiy      | n/a                                                        |         |
-| Баковкина Анна Владимировна     | bakovkina_anna        | n/a                                                        |         |
+| Баковкина Анна Владимировна     | bakovkina_anna        | https://github.com/an-baa/practice                         |         |
 | Беляев Вадим Игоревич           | belyaev_vadim         | n/a                                                        |         |
-| Бирюкова Светлана Алексеевна    | biryukova_svetlana    | n/a                                                        |         |
+| Бирюкова Светлана Алексеевна    | biryukova_svetlana    | https://github.com/katusha000/UlearnPractice               |         |
 | Бородин Никита Александрович    | borodin_nikita        | n/a                                                        |         |
-| Буданок Роман Юрьевич           | budanok_roman         | n/a                                                        |         |
+| Буданок Роман Юрьевич           | budanok_roman         | https://github.com/NingerangorOid/Praktika_2026            |         |
 | Булатов Илья Андреевич          | bulatov_ilya          | n/a                                                        |         |
 | Веренин Сергей Игоревич         | verenin_sergey        | n/a                                                        |         |
 | Грицюк Иван                     | gritsyuk_ivan         | https://github.com/IvanGritsyuk/practica_pi26              |         |
@@ -18,11 +18,9 @@
 | Дудка Виктор Витальевич         | dudka_viktor          | https://github.com/Du2Vi-lab/Ulearn-Tasks.git              |         |
 | Еськина Софья Александровна     | eskina_sofya          | n/a                                                        | 5       |
 | Жгунов Ростислав Ильич          | zhgunov_rostislav     | n/a                                                        |         |
-| Жиряков Георгий Кириллович      | zhiryakov_georgiy     | n/a                                                        |         |
+| Жиряков Георгий Кириллович      | zhiryakov_georgiy     | https://github.com/zlatan12321/practice                    |         |
 | Жуков Андрей Александрович      | zhukov_andrey         | n/a                                                        |         |
 | Зайцева Анна Александровна      | zaytseva_anna         | https://github.com/ram0k009/Practice.git                   |         |
 | Зотов Никита Алексеевич         | zotov_nikita          | https://github.com/N1kZHub/practice-csharp-2026.git        |         |
 | Зубов Пётр Александрович        | zubov_petr            | n/a                                                        |         |
 | Ибрахим Ахмед                   | ibrakhim_akhmed       | n/a                                                        |         |
-| Кабардинский Евгений Олегович   | demo_kab              | https://github.com/ekabardinsky/pi_24_2026_students_demo   |         |
-| Плагиатор Плагиатович           | plagiator             | https://github.com/ekabardinsky/pi_24_2026_students_demo   |         |
