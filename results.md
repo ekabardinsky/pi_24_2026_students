@@ -1,7 +1,7 @@
 | Студент | Оценка | Последний коммит | Последняя проверка | Сбои | HoMM | Геометрия-2 | Роботы | Генератор отчётов | Дифф. | TaxiOrder | GraphViz | Разряд | Painter |
 | :--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Абдулова Айгуль Эльдаровна |  | — | — | — | — | — | — | — | — | — | — | — | — |
-| Авдеева Анфиса Андреевна |  | 14.06.2026 23:15 | 15.06.2026 09:35 | [зачтено, есть замечания](results/avdeeva_anfisa/sboi.md) | [зачтено, есть замечания](results/avdeeva_anfisa/homm.md) | [зачтено, есть замечания](results/avdeeva_anfisa/geometry-2.md) | [зачтено, есть замечания](results/avdeeva_anfisa/robots.md) | [зачтено, есть замечания](results/avdeeva_anfisa/report_generator.md) | [зачтено, есть замечания](results/avdeeva_anfisa/diff.md) | — | — | — | — |
+| Авдеева Анфиса Андреевна | 3 | 14.06.2026 23:15 | 15.06.2026 09:35 | [зачтено, есть замечания](results/avdeeva_anfisa/sboi.md) | [зачтено, есть замечания](results/avdeeva_anfisa/homm.md) | [зачтено, есть замечания](results/avdeeva_anfisa/geometry-2.md) | [зачтено, есть замечания](results/avdeeva_anfisa/robots.md) | [зачтено, есть замечания](results/avdeeva_anfisa/report_generator.md) | [зачтено, есть замечания](results/avdeeva_anfisa/diff.md) | — | — | — | — |
 | Алиев Альберт Динарович |  | — | — | — | — | — | — | — | — | — | — | — | — |
 | Амбросов Георгий Эдуардович |  | — | — | — | — | — | — | — | — | — | — | — | — |
 | Баковкина Анна Владимировна |  | 16.06.2026 03:05 | 16.06.2026 12:15 | [зачтено, подозрение на списывание](results/bakovkina_anna/sboi.md) | [не зачтено](results/bakovkina_anna/homm.md) | — | — | — | — | — | — | — | — |

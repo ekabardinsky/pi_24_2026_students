@@ -497,12 +497,22 @@ REQUIRED_FOR_3 = {"sboi", "homm", "geometry-2", "robots", "report_generator", "d
 EXTRA_TASKS = [t for t in TASKS if t not in REQUIRED_FOR_3]
 
 
-def calc_grade(student_id: str) -> str:
-    """Вычисляет автооценку на основании результатов проверки. Возвращает '3', '4', '5' или ''."""
-    passed = {
-        task for task in TASKS
-        if classify_result(read_file(RESULTS_DIR / student_id / f"{task}.md")) in ("ok", "minor", "suspicious")
-    }
+def calc_grade(student_id: str, task_cells: list[str] | None = None) -> str:
+    """Вычисляет автооценку на основании результатов проверки. Возвращает '3', '4', '5' или ''.
+
+    task_cells — если передан, используется для определения зачёта вместо чтения файлов.
+    Это важно, чтобы учесть защиту от понижения оценки, применяемую при построении таблицы.
+    """
+    if task_cells is not None:
+        passed = {
+            task for task, cell in zip(TASKS, task_cells)
+            if _is_passed(cell)
+        }
+    else:
+        passed = {
+            task for task in TASKS
+            if classify_result(read_file(RESULTS_DIR / student_id / f"{task}.md")) in ("ok", "minor", "suspicious")
+        }
     if not REQUIRED_FOR_3.issubset(passed):
         return ""
     extra_passed = len(passed - REQUIRED_FOR_3)
@@ -577,7 +587,6 @@ def update_results_md():
             grade_cell = grade
             task_cells = ["—"] * len(TASKS)
         else:
-            grade_cell = calc_grade(student_id)
             current_cells = read_current_cells(name)
             task_cells = []
             for task in TASKS:
@@ -588,6 +597,8 @@ def update_results_md():
                     task_cells.append(old_cell)
                 else:
                     task_cells.append(new_cell)
+            # Передаём уже защищённые ячейки, чтобы оценка соответствовала таблице
+            grade_cell = calc_grade(student_id, task_cells)
         cells = [name, grade_cell, commit_time, checked_time] + task_cells
         rows.append("| " + " | ".join(cells) + " |")
 
