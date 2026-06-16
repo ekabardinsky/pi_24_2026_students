@@ -1,3 +1,3 @@
-Мелкие замечания: В методе FindDevicesFailedBeforeDateObsolete используется тип List~Dictionary~, что формально нарушает требование об отсутствии Dictionary в сигнатурах (хотя это старый метод), и в FailureType не указаны все возможные типы, если они подразумевались заданием.
+Мелкие замечания: В методе FindDevicesFailedBeforeDate используется IEnumerable вместо требуемых сущностей для инкапсуляции аргументов; в старом методе не совсем точно отражена инкапсуляция day/times.
 
-⚠️ SUSPICIOUS: avdeeva_anfisa (совпадают основные классы, их атрибуты и логика методов ReportMaker)
+⚠️ SUSPICIOUS: gritsyuk_ivan (структура классов и сигнатуры методов FindDevicesFailedBeforeDate/Obsolete практически идентичны)

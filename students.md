@@ -7,9 +7,9 @@
 | Баковкина Анна Владимировна     | bakovkina_anna        | https://github.com/an-baa/practice                         |         |
 | Беляев Вадим Игоревич           | belyaev_vadim         | n/a                                                        |         |
 | Бирюкова Светлана Алексеевна    | biryukova_svetlana    | https://github.com/katusha000/UlearnPractice               |         |
-| Бородин Никита Александрович    | borodin_nikita        | n/a                                                        |         |
+| Бородин Никита Александрович    | borodin_nikita        | https://github.com/mxllyy999/ulearnpractice1               |         |
 | Буданок Роман Юрьевич           | budanok_roman         | https://github.com/NingerangorOid/Praktika_2026            |         |
-| Булатов Илья Андреевич          | bulatov_ilya          | n/a                                                        |         |
+| Булатов Илья Андреевич          | bulatov_ilya          | https://github.com/BulatovIlya/practica.git                |         |
 | Веренин Сергей Игоревич         | verenin_sergey        | n/a                                                        |         |
 | Грицюк Иван                     | gritsyuk_ivan         | https://github.com/IvanGritsyuk/practica_pi26              |         |
 | Гулмирзоев Унвониддин Хакимович | gulmirzoev_unvoniddin | n/a                                                        |         |
