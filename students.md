@@ -2,8 +2,8 @@
 |:--------------------------------|:----------------------|:-----------------------------------------------------------|:--------|
 | Абдулова Айгуль Эльдаровна      | abdulova_aigul        | https://github.com/abdulowa/practice_abdulowa              |         |
 | Авдеева Анфиса Андреевна        | avdeeva_anfisa        | https://github.com/AnfisaAvdeeva/practice_ulearn_2026.git  |         |
-| Алиев Альберт Динарович         | aliev_albert          | n/a                                                        |         |
-| Амбросов Георгий Эдуардович     | ambrosov_georgiy      | n/a                                                        |         |
+| Алиев Альберт Динарович         | aliev_albert          | https://github.com/alievAlbert/practice_cs_2026.git        |         |
+| Амбросов Георгий Эдуардович     | ambrosov_georgiy      | https://github.com/Goshanije/educational-practice          |         |
 | Баковкина Анна Владимировна     | bakovkina_anna        | https://github.com/an-baa/practice                         |         |
 | Беляев Вадим Игоревич           | belyaev_vadim         | n/a                                                        |         |
 | Бирюкова Светлана Алексеевна    | biryukova_svetlana    | https://github.com/katusha000/UlearnPractice               |         |
