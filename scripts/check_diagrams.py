@@ -530,8 +530,8 @@ def _is_passed(cell: str) -> bool:
 
 
 def _is_failed(cell: str) -> bool:
-    """Возвращает True если ячейка содержит «не зачтено»."""
-    return "не зачтено" in cell
+    """Возвращает True если ячейка содержит «не зачтено» или «списывание»."""
+    return "не зачтено" in cell or "списывание" in cell
 
 
 def read_current_cells(name: str) -> dict[str, str]:

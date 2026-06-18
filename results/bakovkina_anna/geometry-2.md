@@ -1,1 +1,1 @@
-Мелкие замечания: Использование типа `dynamic` в методах не является ошибкой UML, но избыточно; наличие лишней связи `BoxifyVisitor ..> BoundingBoxVisitor`.
+Мелкие замечания: лишняя связь BoxifyVisitor ..> BoundingBoxVisitor и использование dynamic в методах.

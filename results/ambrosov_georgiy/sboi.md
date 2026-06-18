@@ -1,3 +1,3 @@
-Мелкие замечания: В методе FindDevicesFailedBeforeObsolete используется List<Dictionary>, что формально нарушает запрет на Dictionary в аргументах (хотя это часть старой сигнатуры), и связь Failure --> FailureType лучше заменить на ассоциацию или зависимость.
+1. Новый статический метод FindDevicesFailedBeforeDate не инкапсулирует аргументы в сущности Device и Failure (в сигнатуре всё еще используются List<Failure> и List<Device>).
 
-⚠️ SUSPICIOUS: borodin_nikita (структура классов, методов и связей практически идентична, за исключением стилизации и мелких различий в именовании полей)
+⚠️ SUSPICIOUS: aliev_albert (структура классов, сигнатуры методов ReportMaker и перечисление FailureType практически идентичны)

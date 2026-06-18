@@ -1,1 +1,1 @@
-Мелкие замечания: В методах `Visit` у `BoundingBoxVisitor` и `BoxifyVisitor` возвращаемые типы не совсем согласованы с интерфейсом `IVisitor` (использование `RectangularCuboid` и `Body` вместо `TypeResult`), но это допустимо в рамках обобщений.
+Мелкие замечания: В методах `Visit` классов `BoundingBoxVisitor` и `BoxifyVisitor` возвращаемые типы не согласуются с интерфейсом `IVisitor` (разные типы вместо единого `TypeResult`).

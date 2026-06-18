@@ -1,0 +1,1 @@
+Мелкие замечания: не указаны типы для `MethodInfo` и `BinaryExpression`, а также отсутствует связь между `DifferentiationVisitor` и `ExpressionVisitor` (в коде Mermaid указано наследование, но типы аргументов в методах `Visit` не согласованы с базовым классом).
