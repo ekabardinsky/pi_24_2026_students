@@ -1,1 +1,0 @@
-⚠️ SUSPICIOUS: zotov_nikita (почти идентичная структура классов, методов Algebra и перечисления ExpressionType)

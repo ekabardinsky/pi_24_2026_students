@@ -1,1 +1,0 @@
-Мелкие замечания: в `ReportProfile` поля `Format` и `Statistics` указаны как публичные свойства, а не типы интерфейсов; в `ReportMaker` метод `MakeReport` использует `measurements`, тип которых не определен явно.

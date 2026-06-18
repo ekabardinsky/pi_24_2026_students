@@ -1,1 +1,1 @@
-Мелкие замечания: в методах TaxiApi параметры `string, string` для `UpdateDestination` могут не соответствовать обновленному объекту `Address`.
+Мелкие замечания: В методах TaxiApi параметры `string, string` для `UpdateDestination` могут не соответствовать обновленному интерфейсу `TaxiOrder`, принимающему объект `Address`.
