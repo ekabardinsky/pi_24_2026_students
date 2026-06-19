@@ -1,3 +1,3 @@
-Мелкие замечания: в связи `SaveImageAction ..> TopLevel` класс `TopLevel` не определен в диаграмме.
+Мелкие замечания: в диаграмме присутствует связь `SaveImageAction ..> TopLevel`, однако класс `TopLevel` не описан.
 
-⚠️ SUSPICIOUS: biryukova_svetlana (структура интерфейсов, классов действий и контроллера совпадает на 80%, включая специфические поля и сигнатуры методов)
+⚠️ SUSPICIOUS: budanok_roman (структура классов MainWindow, ImageSettingsAction, SaveImageAction, PaletteSettingsAction и их связей практически идентична)

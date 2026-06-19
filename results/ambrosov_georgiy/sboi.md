@@ -1,3 +1,3 @@
-1. Новый статический метод FindDevicesFailedBeforeDate не инкапсулирует аргументы в сущности Device и Failure (в сигнатуре всё еще используются List<Failure> и List<Device>).
+Мелкие замечания: В методе FindDevicesFailedBeforeDate используется List<Dictionary>, что формально нарушает запрет на Dictionary в аргументах (хотя это может быть частью старого метода).
 
-⚠️ SUSPICIOUS: aliev_albert (структура классов, сигнатуры методов ReportMaker и перечисление FailureType практически идентичны)
+⚠️ SUSPICIOUS: borodin_nikita (структура классов и сигнатуры методов ReportMaker практически идентичны, включая специфические типы данных)

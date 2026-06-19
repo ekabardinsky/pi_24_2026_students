@@ -1,1 +1,1 @@
-Мелкие замечания: опечатка в методе `СhecktValidDevice`, использование `IsSerious$` (синтаксис статического поля) и не совсем точное именование аргументов в `FindDevicesFailedBeforeDateObsolete`.
+Мелкие замечания: опечатка в методе `СhecktValidDevice`, использование `IsSerious$` (синтаксис статического поля) и не совсем точное соответствие типов в `FindDevicesFailedBeforeDateObsolete` относительно описания задачи.
