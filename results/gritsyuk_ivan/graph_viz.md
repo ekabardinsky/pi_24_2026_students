@@ -1,0 +1,1 @@
+Мелкие замечания: в методах интерфейсов `INodeAttributes` и `IEdgeAttributes` возвращаемые типы указаны как `INodeAttributes` и `IEdgeAttributes` соответственно, что допустимо для Fluent API.

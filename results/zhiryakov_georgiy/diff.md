@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: bulatov_ilya (структура классов ExpressionDifferentiator и FunctionRules с их методами и полями почти полностью совпадает с DifferentiationVisitor и его содержимым)
+Замечаний нет.

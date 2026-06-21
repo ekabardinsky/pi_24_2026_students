@@ -1,0 +1,1 @@
+Мелкие замечания: связь между Robot и Robot~TCommand~ (создание) должна быть Dependency (..>), а не Association (<--).

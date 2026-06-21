@@ -1,3 +1,3 @@
-Мелкие замечания: не совсем корректные типы связей для полей (BinaryExpression и MethodCallExpression должны использовать агрегацию или композицию для Expression), а также использование `ExpressionType` как поля в `BinaryExpression` вместо связи.
+Мелкие замечания: в `MethodCallExpression` связь с `Expression` должна быть агрегацией или ассоциацией, а не просто отсутствием связи; в `BinaryExpression` и `MethodCallExpression` дублируется поле `ExpressionType`, которое уже есть в базовом классе.
 
-⚠️ SUSPICIOUS: avdeeva_anfisa (структура классов, атрибуты и связи практически идентичны, включая специфические названия полей и перечисления)
+⚠️ SUSPICIOUS: avdeeva_anfisa (структура классов, атрибуты Expression и MethodCallExpression, а также сигнатуры методов Algebra практически идентичны)
