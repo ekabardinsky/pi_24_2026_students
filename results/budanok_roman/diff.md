@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: avdeeva_anfisa (структура классов и полей почти идентична, включая специфические названия NodeType и аргументов)
+⚠️ Ошибка при проверке: HTTP 500: Internal Server Error

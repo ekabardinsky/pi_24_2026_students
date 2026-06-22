@@ -1,3 +1,1 @@
-Мелкие замечания: В методе FindDevicesFailedBeforeDate указано 5 аргументов вместо требуемых не более 4-х.
-
-⚠️ PLAGIAT: biryukova_svetlana (структура классов и наличие класса Common идентичны, включая сигнатуры методов)
+⚠️ Ошибка при проверке: HTTP 500: Internal Server Error

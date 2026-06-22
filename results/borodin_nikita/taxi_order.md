@@ -1,1 +1,1 @@
-1. Диаграмма нарисована для другого задания (сущности Ride, Passenger, Route, TripWorkflow и т.д. не соответствуют описанию задачи TaxiOrder и TaxiApi).
+⚠️ Ошибка при проверке: HTTP 500: Internal Server Error

@@ -1,1 +1,1 @@
-Мелкие замечания: лишние связи (BoxifyVisitor ..> BoundingBoxVisitor) и текстовые пояснения в названиях связей.
+⚠️ Ошибка при проверке: HTTP 500: Internal Server Error

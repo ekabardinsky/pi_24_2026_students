@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zaytseva_anna (структура классов, интерфейсов и связей практически идентична, за исключением названия ReportContext/ReportMaker)
+⚠️ Ошибка при проверке: HTTP 500: Internal Server Error
