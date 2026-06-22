@@ -1,0 +1,8 @@
+1. Неправильный тип связи: для реализации интерфейса (INodeBuilder, IEdgeBuilder, INodeProps, IEdgeProps, IDotGraphBuilder) используется `-->` вместо `<|..`. Например, `IDotGraphBuilder <|-- INodeBuilder` должно быть `IDotGraphBuilder <|.. INodeBuilder`.
+2. Неправильный тип связи: `IDotGraphBuilder <|.. DotGraphMaker` — это реализация, а не наследование, но `DotGraphMaker` не является интерфейсом, здесь должна быть ассоциация или зависимость, а не реализация. Аналогично для `INodeBuilder <|.. DotGraphMaker` и `IEdgeBuilder <|.. DotGraphMaker`.
+3. Отсутствуют требуемые атрибуты: в интерфейсах `INodeProps` и `IEdgeProps` не хватает методов для установки всех обязательных атрибутов (color, fontsize, label, shape для узлов; color, fontsize, label, weight для ребер). Например, в `INodeProps` нет `Color`, `FontSize`, `Label`, а в `IEdgeProps` нет `Color`, `FontSize`, `Label`.
+4. Неправильная связь: `IDotGraphBuilder <|-- INodeBuilder` и `IDotGraphBuilder <|-- IEdgeBuilder` — это не наследование, а ассоциация (возврат интерфейса из метода).
+
+Мелкие замечания: `CommonPropertiesExtensions` использует generic `T` без ограничения на интерфейс; `IElementWithAttributes` не используется напрямую в задании, но это не ошибка.
+
+⚠️ PLAGIAT: bulatov_ilya (полная идентичность структуры и классов, включая абстрактный класс AttrBase~T~, NodeAttrs, EdgeAttrs, DotGraphBuilder, NodeHandle, EdgeHandle и все связи между ними)
