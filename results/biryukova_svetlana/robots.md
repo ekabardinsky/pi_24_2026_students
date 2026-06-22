@@ -1,1 +1,1 @@
-⚠️ Ошибка при проверке: HTTP 500: Internal Server Error
+1. Диаграмма нарисована для другого задания (сущности Warehouse, Inventory, Conveyor и т.д. не имеют отношения к описанным в задаче RobotAI, Mover, Builder и Shooter).

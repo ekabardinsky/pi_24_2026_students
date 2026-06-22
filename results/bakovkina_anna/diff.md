@@ -1,1 +1,1 @@
-⚠️ Ошибка при проверке: HTTP 500: Internal Server Error
+Мелкие замечания: связи BinaryExpression, UnaryExpression и MethodCallExpression с Expression по смыслу ближе к агрегации или композиции, чем к простой ассоциации.

@@ -1,1 +1,1 @@
-⚠️ Ошибка при проверке: HTTP 500: Internal Server Error
+Мелкие замечания: в методах интерфейсов `INodeBuilder` и `IEdgeBuilder` используется `Action`, хотя логичнее было бы ожидать `Action<INodeAttributesBuilder>` или аналогичный тип для реализации Fluent API.

@@ -1,1 +1,1 @@
-⚠️ Ошибка при проверке: HTTP 500: Internal Server Error
+Мелкие замечания: В методах `Visit` классов `BoundingBoxVisitor` и `BoxifyVisitor` возвращаемые типы не согласованы с интерфейсом `IVisitor` (разные типы вместо единого `TypeResult`).
