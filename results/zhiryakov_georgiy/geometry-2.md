@@ -1,1 +1,1 @@
-Мелкие замечания: В методах `Accept` и `Visit` используются дженерики `TResult`, что не было явно запрещено, но усложняет структуру интерфейса `IVisitor`.
+⚠️ PLAGIAT: gritsyuk_ivan (диаграммы почти идентичны: одинаковые классы, методы, обобщённый интерфейс IVisitor~TResult~, связи наследования и реализации, включая специфичные связи BoundingBoxVisitor..>RectangularCuboid и BoxifyVisitor..>BoundingBoxVisitor)

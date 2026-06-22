@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: avdeeva_anfisa (структура классов, сигнатуры методов Algebra и перечисление ExpressionType практически идентичны)
+⚠️ PLAGIAT: abdulova_aigul (полная идентичность структуры классов, методов и связей, включая названия методов DifferentiateBinary и DifferentiateMethodCall, а также зависимости Algebra от Expression, ParameterExpression, BinaryExpression, MethodCallExpression)

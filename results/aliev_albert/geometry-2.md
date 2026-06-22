@@ -1,1 +1,1 @@
-Мелкие замечания: В методах `Accept` и `Visit` возвращаемый тип `Body` может быть не совсем точным для всех реализаций, но это не является ошибкой.
+⚠️ SUSPICIOUS: abdulova_aigul (Структура классов и связей почти идентична, включая IVisitor, Body, Ball, RectangularCuboid, Cylinder, CompoundBody, BoundingBoxVisitor, BoxifyVisitor; различие только в наличии Vector3 и дополнительных зависимостях у abdulova_aigul)

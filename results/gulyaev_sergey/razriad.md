@@ -1,3 +1,1 @@
-Мелкие замечания: не указаны типы возвращаемых значений для некоторых методов в описании (хотя в Mermaid они присутствуют), избыточное описание интерфейсов IEnumerable и Func, которые являются стандартными.
-
-⚠️ SUSPICIOUS: bulatov_ilya (структура классов и сигнатуры методов Extensions и ControlDigitAlgo практически идентичны)
+⚠️ SUSPICIOUS: bulatov_ilya (Оба имеют статические классы Extensions с методами GetDigits и Sum/SumWeighted, ControlDigitAlgo с Upc, Isbn10, Luhn, и зависимость ControlDigitAlgo ..> Extensions. Отличия: у gulyaev_sergey больше параметров и метод ToIsbn10CheckChar, но структура очень похожа.)

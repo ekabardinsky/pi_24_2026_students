@@ -1,1 +1,1 @@
-Мелкие замечания: отсутствует иерархия конкретных типов выражений (например, Constant, BinaryOperation), которые логично вытекают из методов класса Expression.
+⚠️ PLAGIAT: zhiryakov_georgiy (полная идентичность структуры и названий классов, включая специфические детали: Dictionary с OpRules, FuncRules, SinMethod, CosMethod, а также использование MethodInfo и одинаковые методы Differentiate)

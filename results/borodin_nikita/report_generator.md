@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zaytseva_anna (структура классов, интерфейсов и связей практически идентична, за исключением названия ReportContext/ReportMaker)
+⚠️ SUSPICIOUS: zaytseva_anna (почти идентичная структура: те же интерфейсы IReportRenderer/IStatisticsCalculator, те же реализации HtmlRenderer/MarkdownRenderer/MeanAndStdCalculator/MedianCalculator, класс ReportMaker с композицией, класс ReportMakerHelper со статическими методами, классы Measurement/MeanAndStd)

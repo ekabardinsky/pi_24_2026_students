@@ -1,3 +1,1 @@
-Мелкие замечания: не указано использование ковариантной модификации (out) в интерфейсах `IRobotAI` и `IDevice`, что является ключевым требованием задачи для обеспечения компиляции.
-
-⚠️ SUSPICIOUS: bakovkina_anna (структура классов, наличие Point, методов ForCounter и идентичная иерархия команд и AI совпадают на 85%)
+⚠️ SUSPICIOUS: zhukov_andrey (Очень похожая структура: те же интерфейсы IMoveCommand/IShooterMoveCommand, те же реализации ShooterAI/BuilderAI/Mover/ShooterMover, статический класс Robot с Create, агрегация в Robot~TCommand~, отсутствие абстрактных классов и Point)

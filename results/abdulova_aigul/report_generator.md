@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ SUSPICIOUS: bulatov_ilya (почти идентичная структура: IRenderer с Caption, ReportMaker с делегатом FuncCalculator, ReportMakerHelper, Measurement, MeanAndStd; различие в названиях HtmlRenderer/HtmlCompiler и MarkdownRenderer/MarkdownCompiler)

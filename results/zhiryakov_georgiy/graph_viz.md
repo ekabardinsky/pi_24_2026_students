@@ -1,3 +1,1 @@
-Мелкие замечания: неточное использование связей зависимости (..>) между PendingElement и атрибутами, а также между NodeAttributes и NodeShape.
-
-⚠️ SUSPICIOUS: bulatov_ilya (структура классов PendingElement/Handle и AttributeSet/AttrBase практически идентична, включая использование дженериков для атрибутов)
+⚠️ SUSPICIOUS: bulatov_ilya (Идентичная структура: абстрактный класс AttributeSet с методами Color/FontSize/Label, наследники NodeAttributes/EdgeAttributes, классы-хендлы с With/AddNode/AddEdge/Build, и те же связи между компонентами)

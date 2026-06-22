@@ -372,11 +372,11 @@ def classify_result(text: str | None) -> str:
         return "ok"
     # Проверяем плагиат — он может быть в любом месте текста
     if "⚠️ PLAGIAT:" in text:
-        return "plagiat"
+        return "suspicious"
     if "⚠️ SUSPICIOUS:" in text:
         # Грубые ошибки важнее подозрения на списывание
         first_line = text.strip().splitlines()[0].strip()
-        if not first_line.lower().startswith("мелкие ") and not first_line.upper().startswith("OK"):
+        if not first_line.lower().startswith("мелкие ") and not first_line.upper().startswith("OK") and not first_line.upper().startswith("⚠️ SUSPICIOUS:"):
             return "major"
         return "suspicious"
     first_line = text.strip().splitlines()[0].strip()

@@ -1,3 +1,8 @@
-Мелкие замечания: неточное использование композиции для связей с `Expression` (в LINQ Expressions это скорее агрегация или ассоциация), избыточные зависимости `ExpressionType` от конкретных классов.
+1. Диаграмма не является classDiagram (отсутствует ключевое слово classDiagram в начале, хотя в коде оно есть — ошибка не подтверждена, но проверяем дальше).
+2. Отсутствует ключевая сущность — класс/метод для обработки исключений при дифференцировании неподдерживаемых функций, что требуется заданием ("на попытки продифференцировать не поддерживаемые функции или синтаксические конструкции нужно выбрасывать исключение с понятным сообщением об ошибке").
+3. Неправильный тип связи: для наследования от Expression используется `Expression <|-- BinaryExpression : extends`, но в Mermaid правильный синтаксис — `BinaryExpression --|> Expression` (стрелка от наследника к родителю). Аналогично для всех наследников.
+4. Неправильный тип связи: для реализации интерфейса (если бы был) используется `..|>`, но здесь нет интерфейсов, поэтому не критично, но связи `ExpressionType ..> BinaryExpression` и подобные — это зависимости, а не описание типа, что семантически неверно.
 
-⚠️ SUSPICIOUS: gulyaev_sergey (структура классов, перечисление ExpressionType и состав полей практически идентичны, включая UnaryExpression и MemberExpression)
+Мелкие замечания: В диаграмме не указаны методы для BinaryExpression, UnaryExpression и других классов выражений, хотя они используются в Differentiate; также не показан класс исключения.
+
+⚠️ SUSPICIOUS: abdulova_aigul (Очень похожая структура: класс Algebra с методами Differentiate и DifferentiateExpression, классы Expression, BinaryExpression, MethodCallExpression, ConstantExpression, ParameterExpression, перечисление ExpressionType, наследование от Expression и композиция BinaryExpression и MethodCallExpression с Expression)

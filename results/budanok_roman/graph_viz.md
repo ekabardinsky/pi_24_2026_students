@@ -1,1 +1,1 @@
-Мелкие замечания: в методах интерфейсов `INodeBuilder` и `IEdgeBuilder` используется `Action`, хотя логичнее было бы ожидать `Action<INodeAttributesBuilder>` или аналогичный тип для реализации Fluent API.
+⚠️ SUSPICIOUS: gritsyuk_ivan (почти идентичная структура: те же интерфейсы IGraphBuilder, INodeBuilder, IEdgeBuilder, INodeAttributes, IEdgeAttributes, те же классы-реализации GraphBuilder, NodeBuilder, EdgeBuilder, NodeConfig, EdgeConfig, те же внешние классы Graph, GraphNode, GraphEdge, перечисление NodeShape, те же связи и методы)

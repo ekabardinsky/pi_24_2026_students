@@ -1,1 +1,1 @@
-Мелкие замечания: неточное использование типа связи между DerivativeVisitor и ParameterExpression (скорее зависимость или ассоциация с полем).
+⚠️ PLAGIAT: abdulova_aigul (полная идентичность структуры: классы Algebra, Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, ExpressionType и связи наследования и зависимостей совпадают)
