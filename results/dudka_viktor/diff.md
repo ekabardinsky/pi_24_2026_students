@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: zhiryakov_georgiy (полная идентичность структуры и названий классов, включая специфические детали: Dictionary с OpRules, FuncRules, SinMethod, CosMethod, а также использование MethodInfo и одинаковые методы Differentiate)
+⚠️ PLAGIAT: zaytseva_anna (Идентичная структура классов и методов, включая использование Dictionary, DeriveBinary и DeriveMethodCall, с теми же именами и связями)

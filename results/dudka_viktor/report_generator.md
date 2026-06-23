@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: bulatov_ilya (Структура почти идентична: ReportMaker с делегатами, ReportFormatter с теми же методами, ReportMakerHelper со статическими методами, Measurement, MeanAndStd. Отличие только в названиях классов форматтера и калькулятора.)
+⚠️ PLAGIAT: bulatov_ilya (полная идентичность структуры и названий классов, включая ReportMaker с полями _formatter, _stats, _caption и делегатом Func, а также ReportMakerHelper с теми же статическими методами)

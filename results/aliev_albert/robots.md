@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zhukov_andrey (Очень похожая структура: те же интерфейсы IMoveCommand/IShooterMoveCommand, те же реализации ShooterAI/BuilderAI/Mover/ShooterMover, статический класс Robot с Create, агрегация в Robot~TCommand~, отсутствие абстрактных классов и Point)
+⚠️ PLAGIAT: budanok_roman (почти полное совпадение структуры, классов и связей, включая уникальную деталь: ShooterCommand и BuilderCommand не имеют полей, а Mover параметризован)

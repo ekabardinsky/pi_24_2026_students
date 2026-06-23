@@ -1,8 +1,9 @@
 1. Отсутствует ключевая сущность `Graph`, которая явно требуется заданием (в описании сказано, что в проекте уже реализованы вспомогательные классы, включая `Graph`, и fluent API должен с ними работать).
-2. Неправильный тип связи: `IGraphBuilder <|-- INodeBuilder` и `IGraphBuilder <|-- IEdgeBuilder` — это наследование, но по смыслу `INodeBuilder` и `IEdgeBuilder` не являются наследниками `IGraphBuilder`; они должны быть отдельными интерфейсами, ассоциированными с `IGraphBuilder` через возвращаемые типы методов.
-3. Неправильный тип связи: `INodeAttributes ..> NodeShape` — это зависимость, но по смыслу `INodeAttributes` использует `NodeShape` как параметр метода, что корректно, но в контексте задания `NodeShape` должен быть перечислением, а не классом, и связь может быть слабее (зависимость допустима, но не грубая ошибка).
-4. В интерфейсе `INodeAttributes` метод `FontSize` возвращает `IEdgeAttributes` вместо `INodeAttributes` — это грубая ошибка, нарушающая fluent API (цепочка вызовов сломается).
+2. Неправильный тип связи: `IGraphBuilder <|-- INodeBuilder` и `IGraphBuilder <|-- IEdgeBuilder` — это наследование, но по смыслу `INodeBuilder` и `IEdgeBuilder` не являются наследниками `IGraphBuilder`, они должны быть отдельными интерфейсами, связанными ассоциацией или зависимостью.
+3. Неправильный тип связи: `INodeAttributes <|.. DotGraphBuilder` — реализация интерфейса, но `DotGraphBuilder` не реализует `INodeAttributes`, он его использует (должна быть ассоциация или зависимость).
+4. Неправильный тип связи: `IEdgeAttributes <|.. DotGraphBuilder` — аналогично, `DotGraphBuilder` не реализует `IEdgeAttributes`.
+5. В интерфейсе `INodeAttributes` метод `FontSize` возвращает `IEdgeAttributes`, что является грубой ошибкой — у вершины не должно быть возможности указать атрибуты ребра, это нарушает требование задания об отсутствии доступа к непредусмотренным членам.
 
-Мелкие замечания: В `DotGraphBuilder` не хватает статических методов `DirectedGraph` и `UndirectedGraph` с правильной сигнатурой (возвращают `IGraphBuilder`), а также отсутствует класс `GraphNode` и `GraphEdge`, которые используются как поля.
+Мелкие замечания: В `INodeAttributes` метод `FontSize` должен возвращать `INodeAttributes`, а не `IEdgeAttributes`; в `DotGraphBuilder` не указаны методы, реализующие интерфейсы; отсутствует класс `GraphNode` и `GraphEdge`, которые используются в `DotGraphBuilder`.
 
-⚠️ PLAGIAT: gritsyuk_ivan (Полное совпадение структуры интерфейсов и классов, включая имена методов, типы возвращаемых значений и связи между классами)
+⚠️ SUSPICIOUS: gritsyuk_ivan (почти идентичная структура интерфейсов и классов, включая INodeAttributes, IEdgeAttributes, NodeShape, и реализацию через GraphBuilder/NodeBuilder/EdgeBuilder с теми же методами и связями)

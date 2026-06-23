@@ -17,7 +17,7 @@
 | Дружинина Наталья Сергеевна     | druzhinina_natalya    | n/a                                                                  |         |
 | Дудка Виктор Витальевич         | dudka_viktor          | https://github.com/Du2Vi-lab/Ulearn-Tasks.git                        |         |
 | Еськина Софья Александровна     | eskina_sofya          | n/a                                                                  | 5       |
-| Жгунов Ростислав Ильич          | zhgunov_rostislav     | n/a                                                                  |         |
+| Жгунов Ростислав Ильич          | zhgunov_rostislav     | https://github.com/mysterious-sequoia/ulearn                         |         |
 | Жиряков Георгий Кириллович      | zhiryakov_georgiy     | https://github.com/zlatan12321/practice                              |         |
 | Жуков Андрей Александрович      | zhukov_andrey         | https://github.com/jfjdksksoslwlwlqlqpqpqpqpjejej-byte/Andrey_Zhukov |         |
 | Зайцева Анна Александровна      | zaytseva_anna         | https://github.com/ram0k009/Practice.git                             |         |

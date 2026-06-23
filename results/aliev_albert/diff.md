@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: abdulova_aigul (Одинаковая структура классов Expression, BinaryExpression, MethodCallExpression, ParameterExpression, ConstantExpression с теми же полями и наследованием, а также класс Algebra с методами дифференцирования)
+⚠️ PLAGIAT: abdulova_aigul (полная идентичность структуры классов, методов и зависимостей, различие только в именах методов и отсутствии Enum в проверяемой)

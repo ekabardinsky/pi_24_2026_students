@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: abdulova_aigul (Структура классов и связей почти идентична, включая IVisitor, Body, Ball, RectangularCuboid, Cylinder, CompoundBody, BoundingBoxVisitor, BoxifyVisitor; различие только в наличии Vector3 и дополнительных зависимостях у abdulova_aigul)
+⚠️ PLAGIAT: abdulova_aigul (диаграммы идентичны по структуре, классам, полям, методам и связям, за исключением отсутствия в проверяемой диаграмме класса Vector3 и дополнительных зависимостей)

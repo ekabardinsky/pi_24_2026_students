@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: gritsyuk_ivan (почти идентичная структура: те же интерфейсы IGraphBuilder, INodeBuilder, IEdgeBuilder, INodeAttributes, IEdgeAttributes, те же классы-реализации GraphBuilder, NodeBuilder, EdgeBuilder, NodeConfig, EdgeConfig, те же внешние классы Graph, GraphNode, GraphEdge, перечисление NodeShape, те же связи и методы)
+⚠️ PLAGIAT: gritsyuk_ivan (Полное совпадение структуры, классов, интерфейсов, связей и даже порядка элементов, включая идентичные комментарии и названия методов)

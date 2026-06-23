@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: avdeeva_anfisa (Полная идентичность структуры, типов и связей, включая дженерики IVisitor~T~, композицию Body с Vector3 и зависимость BoxifyVisitor от BoundingBoxVisitor)
+⚠️ SUSPICIOUS: avdeeva_anfisa (Идентичная структура классов, интерфейсов и связей, включая дженерики IVisitor~T~ и BoxifyVisitor, использующий BoundingBoxVisitor)

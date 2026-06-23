@@ -1,3 +1,1 @@
-Мелкие замечания: в `MethodCallExpression` связь с `Expression` должна быть агрегацией или ассоциацией, а не просто отсутствием связи; в `BinaryExpression` и `MethodCallExpression` дублируется поле `ExpressionType`, которое уже есть в базовом классе.
-
-⚠️ SUSPICIOUS: avdeeva_anfisa (структура классов, атрибуты Expression и MethodCallExpression, а также сигнатуры методов Algebra практически идентичны)
+⚠️ SUSPICIOUS: abdulova_aigul (Очень похожая структура: те же классы Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, ExpressionType, статический класс Algebra с методами Differentiate и приватными вспомогательными методами, те же зависимости и наследование, различие лишь в деталях реализации и направлении диаграммы)
