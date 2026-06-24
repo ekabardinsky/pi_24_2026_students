@@ -22,5 +22,5 @@
 | Жуков Андрей Александрович      | zhukov_andrey         | https://github.com/jfjdksksoslwlwlqlqpqpqpqpjejej-byte/Andrey_Zhukov |         |
 | Зайцева Анна Александровна      | zaytseva_anna         | https://github.com/ram0k009/Practice.git                             |         |
 | Зотов Никита Алексеевич         | zotov_nikita          | https://github.com/N1kZHub/practice-csharp-2026.git                  |         |
-| Зубов Пётр Александрович        | zubov_petr            | https://github.com/nextpovezet/praktika226/tree/main                 |         |
+| Зубов Пётр Александрович        | zubov_petr            | https://github.com/nextpovezet/praktika226.git                       |         |
 | Ибрахим Ахмед                   | ibrakhim_akhmed       | n/a                                                                  |         |

@@ -1,0 +1,1 @@
+⚠️ PLAGIAT: abdulova_aigul (Идентичная структура классов Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, наследование от Expression, зависимости Algebra от Expression и его подклассов, а также использование ExpressionType)
