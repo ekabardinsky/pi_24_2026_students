@@ -1,1 +1,5 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+1. Грубая ошибка: `NodeBuilder` и `EdgeBuilder` наследуют от `GraphBuilderBase` (стрелка `<|--`), хотя по смыслу они не являются наследниками, а скорее возвращаются методами `AddNode`/`AddEdge` — это неправильный тип связи (должна быть ассоциация или зависимость, а не наследование).
+
+Мелкие замечания: В `DotGraphBuilder` методы `DirectedGraph` и `UndirectedGraph` названы не как статические фабричные методы (обычно ожидается `CreateDirectedGraph` или подобное), но это допустимо; также не указаны модификаторы доступа для всех членов (например, `+` для методов `DirectedGraph`/`UndirectedGraph`).
+
+⚠️ PLAGIAT: bulatov_ilya (Идентичная структура классов: AttrBase~T~ = GraphBuilderBase, NodeAttrs = NodeAttributes, EdgeAttrs = EdgeAttributes, NodeHandle = NodeBuilder, EdgeHandle = EdgeBuilder, DotGraphBuilder идентичен, все связи и методы совпадают)

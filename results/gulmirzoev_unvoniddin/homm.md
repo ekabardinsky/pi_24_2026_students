@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ SUSPICIOUS: borodin_nikita (почти идентичная структура: абстрактный MapObject, интерфейсы IOwned/ICombat/ILoot, те же классы-наследники с теми же полями, включая Growth, DailyIncome, PackSize, Name; Interaction с Make(Player, MapObject) и зависимостями от интерфейсов)

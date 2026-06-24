@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zhukov_andrey (Полностью идентичная структура интерфейсов IOwner, IArmy, ITreasure, классов и отношений, включая названия методов и параметры в Interaction)
+⚠️ PLAGIAT: zhgunov_rostislav (полная идентичность структуры и имен интерфейсов IHasOwner, IHasArmy, IHasTreasure, классов и связей, разница только в направлении и отсутствии комментариев)

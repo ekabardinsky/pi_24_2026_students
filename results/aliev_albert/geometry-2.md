@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: abdulova_aigul (диаграммы идентичны по структуре, классам, полям, методам и связям, за исключением отсутствия в проверяемой диаграмме класса Vector3 и дополнительных зависимостей)
+⚠️ SUSPICIOUS: abdulova_aigul (Структура классов, интерфейсов и связей почти идентична, включая IVisitor, Body, Ball, RectangularCuboid, Cylinder, CompoundBody, BoundingBoxVisitor, BoxifyVisitor. Отличия минимальны: у проверяемого есть приватные поля в BoundingBoxVisitor, у abdulova_aigul добавлен класс Vector3 и дополнительные зависимости.)

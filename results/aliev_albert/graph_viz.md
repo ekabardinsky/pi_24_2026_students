@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: bulatov_ilya (Полная идентичность структуры классов, связей и методов, включая абстрактный класс AttrBase с общими атрибутами и наследование от него NodeAttrs/EdgeAttrs)
+⚠️ SUSPICIOUS: bulatov_ilya (Оба используют абстрактный класс AttrBase/ConfigBuilder с наследованием для NodeAttrs/EdgeAttrs, одинаковую структуру NodeHandle/EdgeHandle с методами With, AddNode, AddEdge, Build и ссылками на builder)

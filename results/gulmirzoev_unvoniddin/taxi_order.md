@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ PLAGIAT: aliev_albert (Идентичная структура: Entity/ValueType, TaxiOrder с теми же полями и методами, Driver, Car, PersonName, Address, DriversRepository, TaxiApi, ITaxiApi, TaxiOrderStatus, связи наследования и агрегации — всё совпадает до мельчайших деталей, включая порядок методов и readonly-поля.)

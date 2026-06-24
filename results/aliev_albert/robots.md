@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: budanok_roman (почти полное совпадение структуры, классов и связей, включая уникальную деталь: ShooterCommand и BuilderCommand не имеют полей, а Mover параметризован)
+⚠️ SUSPICIOUS: zhgunov_rostislav (идентичная структура классов и связей, различие только в наличии Point и статических методов ForCounter)

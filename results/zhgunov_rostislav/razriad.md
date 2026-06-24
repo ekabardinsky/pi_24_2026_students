@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: gritsyuk_ivan (Оба имеют классы Extensions и ControlDigitAlgo с методами Digits, SumWithWeights, Upc, Isbn10, Luhn, а также связь ControlDigitAlgo использует Extensions)
+⚠️ PLAGIAT: gritsyuk_ivan (полностью идентичные классы Extensions и ControlDigitAlgo с одинаковыми методами, включая приватный LuhnDouble и ComplementMod10, а также связь "использует")

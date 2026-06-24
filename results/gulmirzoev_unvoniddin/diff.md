@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ PLAGIAT: gulyaev_sergey (Идентичная структура классов, наследование ExpressionVisitor, методы DerivativeVisitor, ассоциация с Math)
