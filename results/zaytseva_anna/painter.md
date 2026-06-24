@@ -1,3 +1,1 @@
-Мелкие замечания: в диаграмме присутствует связь `SaveImageAction ..> TopLevel`, однако класс `TopLevel` не описан.
-
-⚠️ SUSPICIOUS: budanok_roman (структура классов MainWindow, ImageSettingsAction, SaveImageAction, PaletteSettingsAction и их связей практически идентична)
+⚠️ SUSPICIOUS: ambrosov_georgiy (полностью идентичная структура классов и связей, только у проверяемого добавлены незначительные детали вроде событий и комментариев)

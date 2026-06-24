@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zaytseva_anna (идентичная структура классов Graph, NodeBuilder, EdgeBuilder, NodeConfigurator, EdgeConfigurator, DotGraphBuilder с теми же методами и связями)
+⚠️ SUSPICIOUS: zhgunov_rostislav (почти идентичная структура: те же классы Graph, GraphNode, GraphEdge, DotGraphBuilder, NodeBuilder, EdgeBuilder, NodeConfigurator, EdgeConfigurator, NodeShape с теми же методами и связями, разница лишь в модификаторах доступа и незначительных деталях)

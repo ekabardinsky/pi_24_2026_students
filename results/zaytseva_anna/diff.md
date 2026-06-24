@@ -1,1 +1,1 @@
-Мелкие замечания: избыточное отображение системных классов (Dictionary, Func, Expression и др.), которые не являются частью проектируемой логики.
+⚠️ SUSPICIOUS: abdulova_aigul (Оба используют одинаковую структуру: статический класс Algebra с методами Differentiate, Derive/DifferentiateBinary, DeriveMethodCall/DifferentiateMethodCall и зависимости от Expression, ParameterExpression, BinaryExpression, MethodCallExpression)

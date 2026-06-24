@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: bulatov_ilya (полная идентичность структуры, классов, методов и связей, включая уникальные методы GetCriticalFailureDevices и TransformData, а также направление RL)
+⚠️ PLAGIAT: bulatov_ilya (полная идентичность структуры, классов, методов и связей, включая direction RL, методы IsValid/СhecktValidDevice, WasBefore, IsInCurrentYear, GetRecentCriticalDeviceIds, TransformData)

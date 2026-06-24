@@ -1,1 +1,1 @@
-Мелкие замечания: в интерфейсе IOwnable поле Owner имеет тип int, хотя логичнее было бы Player; в методах Process используется generic T, что не всегда явно отражено в связях.
+⚠️ SUSPICIOUS: zhgunov_rostislav (Идентичные интерфейсы IHasOwner/IHasArmy/IHasTreasure, те же классы объектов, та же структура Interaction, различие только в наличии/отсутствии Army и Treasure как классов и в деталях нотации)

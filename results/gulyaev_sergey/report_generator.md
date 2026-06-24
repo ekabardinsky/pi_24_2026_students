@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: dudka_viktor (Оба используют функциональные делегаты вместо интерфейсов для форматирования и статистики, что является редким подходом; структура ReportMaker и ReportMakerHelper совпадает)
+⚠️ PLAGIAT: budanok_roman (полная идентичность структуры и названий классов, включая ProcessedData, ReportBuilder, StatsProcessor, ReportGenerator, ReportComponentsFactory, ReportMakerHelper, Measurement, MeanAndStd, с теми же методами и связями)

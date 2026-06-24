@@ -1,1 +1,3 @@
-⚠️ SUSPICIOUS: gulyaev_sergey (структура Visitor и набор методов Visit практически идентичны, включая использование ParameterExpression)
+Мелкие замечания: В диаграмме не указаны все требуемые методы (например, VisitParameter, VisitConstant), но это допустимо, так как студент мог их не выносить в UML.
+
+⚠️ SUSPICIOUS: gulyaev_sergey (Оба используют паттерн Visitor с наследованием от ExpressionVisitor, содержат классы Algebra и DifferentiationVisitor/DerivativeVisitor с одинаковыми методами дифференцирования и агрегацией ParameterExpression)

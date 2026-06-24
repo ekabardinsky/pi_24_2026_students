@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: bulatov_ilya (Оба используют делегаты Func для статистики и форматирования, а не интерфейсы; структура ReportMaker и ReportMakerHelper совпадает; классы Measurement и MeanAndStd идентичны.)
+⚠️ SUSPICIOUS: bulatov_ilya (Оба используют делегаты Func для статистики и форматирования, а не интерфейсы; структура ReportMaker и ReportMakerHelper совпадает, включая сигнатуры методов-помощников)

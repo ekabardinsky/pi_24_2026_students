@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ SUSPICIOUS: zotov_nikita (полностью совпадает структура классов, интерфейсов и связей, включая DragonFractalAction, KochFractalAction, DragonPainter, KochPainter, DragonSettingsGenerator, SettingsManager, IObjectSerializer, IBlobStorage и их реализации)

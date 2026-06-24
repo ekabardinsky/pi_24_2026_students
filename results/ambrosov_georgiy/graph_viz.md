@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: zaytseva_anna (полная идентичность структуры и классов, включая NodeShape, DotGraphBuilder, NodeContext/NodeBuilder, EdgeContext/EdgeBuilder, NodeBuilder/NodeConfigurator, EdgeBuilder/EdgeConfigurator, связи и стили)
+⚠️ SUSPICIOUS: zaytseva_anna (почти идентичная структура классов, методов и связей, включая NodeBuilder, EdgeBuilder, NodeConfigurator/EdgeConfigurator и их методы, а также стиль оформления)

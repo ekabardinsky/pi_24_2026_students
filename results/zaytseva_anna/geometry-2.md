@@ -1,3 +1,1 @@
-Мелкие замечания: Несоответствие типов в связях реализации (IVisitor~T~ вместо конкретных типов в связях с BoundingBoxVisitor и BoxifyVisitor).
-
-⚠️ PLAGIAT: gritsyuk_ivan (структура классов, использование generic-интерфейса IVisitor~T~ и связей практически идентичны)
+⚠️ SUSPICIOUS: avdeeva_anfisa (Почти идентичная структура: обобщённый IVisitor~T~, те же классы, методы, связи; отличие только в наличии ContainsPoint/GetBoundingBox у проверяемого и отсутствии их у avdeeva_anfisa)

@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: dudka_viktor (почти идентичная структура, включая класс Common с методами IsFailureSerious и Earlier, что уникально для этих двух диаграмм)
+⚠️ SUSPICIOUS: dudka_viktor (Оба имеют класс Common с методами IsFailureSerious и Earlier, одинаковую структуру слоёв и устаревший метод)

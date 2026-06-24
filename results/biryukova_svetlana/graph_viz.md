@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: zhukov_andrey (Полная идентичность структуры: те же классы Graph, GraphNode, GraphEdge, DotFormatWriter, DotGraphBuilder, NodeBuilder, EdgeBuilder, NodeConfigurer, EdgeConfigurer, NodeShape с теми же методами и связями, включая детали реализации DotFormatWriter и Graph)
+⚠️ SUSPICIOUS: bulatov_ilya (Оба используют абстрактный класс AttrBase/ConfigBuilder с общими методами Color, FontSize, Label и наследуют NodeAttrs/NodeConfig и EdgeAttrs/EdgeConfig с Shape и Weight; структура билдеров и хендлов идентична)

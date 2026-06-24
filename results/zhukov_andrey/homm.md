@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zotov_nikita (Полностью идентичная структура интерфейсов, классов и связей, различие только в именовании интерфейсов IOwner/IOwnable, IArmy/IHasArmy, ITreasure/IHasTreasure и порядке атрибутов в Player)
+⚠️ SUSPICIOUS: zotov_nikita (полностью идентичная структура: те же интерфейсы, классы, наследование и зависимости, разница только в названии одного интерфейса IHasArmy vs IArmy)

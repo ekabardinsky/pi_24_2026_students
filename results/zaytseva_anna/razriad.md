@@ -1,1 +1,1 @@
-Мелкие замечания: Не указано, что методы в Extensions являются методами расширения (в UML это обычно не отображается, но в контексте задачи важно), и связь ControlDigitAlgo ..> Extensions является зависимостью, что верно.
+⚠️ SUSPICIOUS: gritsyuk_ivan (Оба имеют статические классы ControlDigitAlgo и Extensions с методами GetDigits, SumWithWeights, RemainderTo/ComplementToModulo, и одинаковую структуру зависимостей)

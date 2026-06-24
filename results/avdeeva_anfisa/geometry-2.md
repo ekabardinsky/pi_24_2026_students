@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: borodin_nikita (полная идентичность структуры, типов, связей и даже комментариев, разница только в именах параметров)
+⚠️ SUSPICIOUS: borodin_nikita (почти идентичная структура, включая дженерики IVisitor~T~, возвращаемые типы BoundingBoxVisitor и BoxifyVisitor, и связи)

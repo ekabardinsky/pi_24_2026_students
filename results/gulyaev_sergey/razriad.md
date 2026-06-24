@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: bulatov_ilya (Оба имеют статические классы Extensions с методами GetDigits и Sum/SumWeighted, ControlDigitAlgo с Upc, Isbn10, Luhn, и зависимость ControlDigitAlgo ..> Extensions. Отличия: у gulyaev_sergey больше параметров и метод ToIsbn10CheckChar, но структура очень похожа.)
+⚠️ PLAGIAT: bulatov_ilya (полная идентичность структуры и сигнатур методов, различие только в названии одного метода Sum/SumWeighted и отсутствии одного приватного метода)

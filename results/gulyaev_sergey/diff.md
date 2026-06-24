@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: abdulova_aigul (полная идентичность структуры: классы Algebra, Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, ExpressionType и связи наследования и зависимостей совпадают)
+⚠️ PLAGIAT: abdulova_aigul (полностью идентичная структура классов, наследований и зависимостей, различие только в наличии DerivativeVisitor у проверяемого)

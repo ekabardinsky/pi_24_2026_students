@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: abdulova_aigul (Полное совпадение структуры классов, методов, полей и связей, включая одинаковые названия методов DifferentiateBinary и DifferentiateMethodCall, а также идентичную зависимость Algebra от ExpressionType)
+⚠️ SUSPICIOUS: abdulova_aigul (почти идентичная структура классов и методов, включая сигнатуры Differentiate и приватные методы, с незначительными отличиями в атрибутах)

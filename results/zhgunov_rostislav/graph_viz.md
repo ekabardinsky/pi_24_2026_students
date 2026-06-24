@@ -1,0 +1,6 @@
+1. Неправильный тип связи: `DotGraphBuilder <|-- NodeBuilder` и `DotGraphBuilder <|-- EdgeBuilder` — это наследование, но по заданию `NodeBuilder` и `EdgeBuilder` не являются наследниками `DotGraphBuilder`, они возвращаются из его методов. Должна быть ассоциация `-->` или зависимость `..>`.
+2. Отсутствует ключевая сущность: в задании требуется fluent API, но на диаграмме нет явного указания на возврат `DotGraphBuilder` из методов `With` (хотя это подразумевается), и нет класса `Graph` в пространстве имён `Graphs`, который уже реализован по условию — это нормально, но не ошибка. Однако грубая ошибка: `NodeBuilder` и `EdgeBuilder` не должны наследовать `DotGraphBuilder`, так как это нарушает логику fluent API (они не являются разновидностью строителя графа).
+
+Мелкие замечания: В `NodeConfigurator` и `EdgeConfigurator` конструкторы помечены как `+` (публичные), хотя по логике fluent API они могут быть внутренними; `NodeShape` — перечисление, но в задании не указано, что нужно его выносить отдельно, это допустимо.
+
+⚠️ SUSPICIOUS: zhukov_andrey (почти идентичная структура: те же классы Graph, GraphNode, GraphEdge, DotGraphBuilder, NodeBuilder, EdgeBuilder, NodeConfigurator, EdgeConfigurator, NodeShape; те же методы и поля; различие только в именах полей и namespace)

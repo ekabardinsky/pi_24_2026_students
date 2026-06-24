@@ -12,7 +12,7 @@
 | Булатов Илья Андреевич          | bulatov_ilya          | https://github.com/BulatovIlya/practica.git                          |         |
 | Веренин Сергей Игоревич         | verenin_sergey        | n/a                                                                  |         |
 | Грицюк Иван                     | gritsyuk_ivan         | https://github.com/IvanGritsyuk/practica_pi26                        |         |
-| Гулмирзоев Унвониддин Хакимович | gulmirzoev_unvoniddin | n/a                                                                  |         |
+| Гулмирзоев Унвониддин Хакимович | gulmirzoev_unvoniddin | https://github.com/dmnzeal/ulearn-C-                                 |         |
 | Гуляев Сергей Антонович         | gulyaev_sergey        | https://github.com/silentlight1/practice_csharp_ulearn.git           |         |
 | Дружинина Наталья Сергеевна     | druzhinina_natalya    | n/a                                                                  |         |
 | Дудка Виктор Витальевич         | dudka_viktor          | https://github.com/Du2Vi-lab/Ulearn-Tasks.git                        |         |
@@ -22,5 +22,5 @@
 | Жуков Андрей Александрович      | zhukov_andrey         | https://github.com/jfjdksksoslwlwlqlqpqpqpqpjejej-byte/Andrey_Zhukov |         |
 | Зайцева Анна Александровна      | zaytseva_anna         | https://github.com/ram0k009/Practice.git                             |         |
 | Зотов Никита Алексеевич         | zotov_nikita          | https://github.com/N1kZHub/practice-csharp-2026.git                  |         |
-| Зубов Пётр Александрович        | zubov_petr            | n/a                                                                  |         |
+| Зубов Пётр Александрович        | zubov_petr            | https://github.com/nextpovezet/praktika226/tree/main                 |         |
 | Ибрахим Ахмед                   | ibrakhim_akhmed       | n/a                                                                  |         |

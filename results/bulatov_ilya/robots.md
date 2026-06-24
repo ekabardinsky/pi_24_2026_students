@@ -1,1 +1,1 @@
-Мелкие замечания: не указаны дженерик-параметры в связях агрегации Robot с интерфейсами.
+⚠️ SUSPICIOUS: zhukov_andrey (почти идентичная структура: те же интерфейсы IMoveCommand, IShooterMoveCommand, IRobotAI, IDevice, те же классы ShooterAI, BuilderAI, Mover, ShooterMover, Robot с теми же полями и методами, те же связи наследования и агрегации, различие только в наличии класса Point и статического метода Create)

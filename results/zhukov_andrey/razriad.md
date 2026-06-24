@@ -1,1 +1,1 @@
-Файл есть, но блок ```mermaid``` не найден или синтаксис неверен.
+⚠️ PLAGIAT: gulyaev_sergey (почти идентичная структура: классы Extensions и ControlDigitAlgo с теми же методами, включая GetDigits, SumDigits, ModComplement, PadLeft, а также Upc, Isbn10, Luhn с аналогичными приватными методами)

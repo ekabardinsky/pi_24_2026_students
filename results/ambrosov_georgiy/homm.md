@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: zhiryakov_georgiy (полностью идентичная структура интерфейсов, классов и связей, различаются только названия интерфейсов: IPossessable/IOwnable, IDefended/IGuarded, ISecuredValuables/IValuable)
+⚠️ PLAGIAT: zhgunov_rostislav (Полная идентичность структуры: те же интерфейсы, классы, наследование и зависимости, разница только в стиле пунктирных линий и отсутствии стилизации)

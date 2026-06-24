@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: abdulova_aigul (Оба класса ControlDigitAlgo и Extensions с одинаковыми методами Upc, Isbn10, Luhn и похожими методами расширения, структура идентична)
+⚠️ SUSPICIOUS: abdulova_aigul (Оба класса имеют одинаковую структуру: ControlDigitAlgo с методами Upc, Isbn10, Luhn и Extensions с методами GetDigitsReversed/GetDigitsFromLeastSignificant, SumWithWeights/SumWithFactors, GetCheckDigitMod10/CalculateCheckDigitMod10, а также зависимость ControlDigitAlgo ..> Extensions)

@@ -1,3 +1,1 @@
-Мелкие замечания: в методах `With` указан тип `Action`, что подразумевает передачу делегата, а не возвращаемый объект для цепочки вызовов (хотя в контексте Fluent API это допустимо).
-
-⚠️ SUSPICIOUS: biryukova_svetlana (структура базового абстрактного класса AttrBase/ConfigBuilder и методов Color/FontSize/Label практически идентична)
+⚠️ SUSPICIOUS: zhiryakov_georgiy (Оба используют абстрактный класс AttrBase/AttributeSet с наследованием для NodeAttrs/NodeConfig и EdgeAttrs/EdgeConfig, а также одинаковую структуру билдеров с PendingElement/NodeHandle и EdgeHandle, возвращающих контекст)

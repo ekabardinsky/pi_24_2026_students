@@ -1,0 +1,1 @@
+⚠️ SUSPICIOUS: ambrosov_georgiy (Идентичная структура классов IUiAction, IImageController, ImageSettingsAction, SaveImageAction, PaletteSettingsAction, MainWindow с теми же зависимостями и полями, но у проверяемого добавлены детали реализации и namespace OutOfScope)

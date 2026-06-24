@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: gritsyuk_ivan (полная идентичность структуры, интерфейсов, классов и связей, за исключением незначительных переименований)
+⚠️ PLAGIAT: gritsyuk_ivan (Полная идентичность структуры, классов, методов и связей, включая интерфейсы INodeAttributes/IEdgeAttributes, классы NodeConfig/EdgeConfig и внешние классы Graph/GraphNode/GraphEdge)

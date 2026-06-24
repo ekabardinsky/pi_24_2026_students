@@ -1,1 +1,1 @@
-Мелкие замечания: в методах `NodeBuilder` и `EdgeBuilder` присутствуют лишние методы `AddNode` и `AddEdge`, которые, вероятно, должны быть только в основном билдере.
+⚠️ SUSPICIOUS: ambrosov_georgiy (Идентичная структура классов, названия и методы, различие только в именах NodeContext/EdgeContext вместо NodeBuilder/EdgeBuilder и отсутствии NodeShape в проверяемой)
