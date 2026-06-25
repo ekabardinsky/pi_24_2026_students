@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: abdulova_aigul (Одинаковая структура классов Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression с теми же атрибутами и связями, а также статический класс Algebra с методом Differentiate и зависимостями от Expression и его подклассов)
+⚠️ SUSPICIOUS: abdulova_aigul (Одинаковая структура классов Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, их наследование и связи, а также статический класс Algebra с методом Differentiate и зависимостями от Expression и его подклассов)

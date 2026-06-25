@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: avdeeva_anfisa (полная идентичность структуры, включая дженерики IVisitor~out T~, возвращаемые типы методов, композицию BoxifyVisitor с BoundingBoxVisitor и все связи)
+⚠️ SUSPICIOUS: avdeeva_anfisa (почти идентичная структура: обобщённый IVisitor~T~, BoxifyVisitor с композицией BoundingBoxVisitor, одинаковые типы возврата и связи)

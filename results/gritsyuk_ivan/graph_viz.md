@@ -1,1 +1,1 @@
-Мелкие замечания: в методах интерфейсов `INodeAttributes` и `IEdgeAttributes` возвращаемые типы указаны как `INodeAttributes` и `IEdgeAttributes` соответственно, что допустимо для Fluent API.
+⚠️ SUSPICIOUS: avdeeva_anfisa (почти идентичная структура интерфейсов INodeBuilder, IEdgeBuilder, INodeAttributes, IEdgeAttributes, классы NodeBuilder/EdgeBuilder с With, AddNode, AddEdge, Build, и те же внешние классы Graph/GraphNode/GraphEdge)

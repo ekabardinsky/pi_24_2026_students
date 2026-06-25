@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: zhgunov_rostislav (Полная идентичность структуры и названий интерфейсов IHasOwner, IHasArmy, IHasTreasure, классов и связей, различие только в стиле пунктирных линий)
+⚠️ PLAGIAT: zhgunov_rostislav (Полностью идентичная структура: те же интерфейсы IHasOwner, IHasArmy, IHasTreasure, те же классы Dwelling, Mine, Creeps, Wolves, ResourcePile, те же реализации интерфейсов, тот же статический метод Make с теми же параметрами, те же зависимости Interaction от интерфейсов)

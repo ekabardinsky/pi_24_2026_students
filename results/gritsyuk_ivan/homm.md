@@ -1,3 +1,1 @@
-Мелкие замечания: в методе Interaction.Make вместо `object mapObject` согласно заданию должен использоваться интерфейс, объединяющий необходимые свойства.
-
-⚠️ SUSPICIOUS: dudka_viktor (структура интерфейсов и связей практически идентична, изменены только названия интерфейсов)
+⚠️ PLAGIAT: dudka_viktor (полная идентичность структуры и имен классов, интерфейсов и методов, различие только в названиях интерфейсов: InterOwner/InterfaceOwner, InterArmy/InterfaceArmy, InterTreasure/InterfaceTreasure)

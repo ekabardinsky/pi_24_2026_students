@@ -1,1 +1,1 @@
-Мелкие замечания: неточное использование типа связи (композиция вместо агрегации для AI и Device в AutonomousRobot).
+⚠️ PLAGIAT: zhukov_andrey (полная идентичность структуры и имен классов, включая интерфейсы ICommand, IMoveCommand, ICombatMoveCommand, IRobotAI, IDevice, конкретные реализации и робота с полями _controller/_actuator)
