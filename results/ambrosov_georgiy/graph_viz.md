@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: zaytseva_anna (почти идентичная структура классов, методов и связей, включая NodeBuilder, EdgeBuilder, NodeConfigurator/EdgeConfigurator и их методы, а также стиль оформления)
+⚠️ PLAGIAT: zaytseva_anna (Полная идентичность структуры, классов, методов и связей, включая стилистические особенности)

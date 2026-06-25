@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: budanok_roman (почти идентичная структура классов, интерфейсов и связей, включая одинаковые названия IReportFormatter, IStatisticsCalculator, HtmlFormatter, MarkdownFormatter, MeanAndStdCalculator, MedianCalculator, ReportMaker, ReportMakerHelper и их методы)
+⚠️ SUSPICIOUS: budanok_roman (почти идентичная структура: те же интерфейсы, классы, методы и связи, разница только в стилях оформления и незначительных деталях)

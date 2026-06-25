@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: bulatov_ilya (Идентичная структура: абстрактный класс AttributeSet с методами Color/FontSize/Label, наследники NodeAttributes/EdgeAttributes, классы-хендлы с With/AddNode/AddEdge/Build, и те же связи между компонентами)
+⚠️ PLAGIAT: bulatov_ilya (идентичная структура классов, наследование AttributeSet, имена методов и связей совпадают)

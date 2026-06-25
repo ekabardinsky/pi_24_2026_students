@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: aliev_albert (Идентичная структура: Entity/ValueType, TaxiOrder с теми же полями и методами, Driver, Car, PersonName, Address, DriversRepository, TaxiApi, ITaxiApi, TaxiOrderStatus, связи наследования и агрегации — всё совпадает до мельчайших деталей, включая порядок методов и readonly-поля.)
+⚠️ SUSPICIOUS: aliev_albert (Идентичная структура классов, наследование, композиция и методы, включая одинаковые названия методов и порядок их перечисления, с минимальными отличиями в стиле оформления)

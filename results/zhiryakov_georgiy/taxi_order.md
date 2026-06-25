@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: avdeeva_anfisa (почти идентичная структура: те же классы, интерфейс, наследование от Entity/ValueType, методы и поля совпадают, включая ProgressRecord и его использование)
+⚠️ SUSPICIOUS: avdeeva_anfisa (Структура классов, наследование от Entity/ValueType, интерфейс ITaxiApi, методы и поля TaxiOrder и TaxiApi практически идентичны, включая наличие ProgressRecord/GetLastProgressTime)

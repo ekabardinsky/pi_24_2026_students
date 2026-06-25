@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: budanok_roman (полная идентичность структуры, классов, связей и даже комментариев, за исключением незначительных пробелов)
+⚠️ PLAGIAT: zhgunov_rostislav (полная идентичность структуры: те же классы Expression, ConstantExpression, ParameterExpression, BinaryExpression, MethodCallExpression, UnaryExpression с теми же полями и связями, включая Algebra с методом Differentiate и зависимостями от Expression, BinaryExpression, MethodCallExpression, UnaryExpression)

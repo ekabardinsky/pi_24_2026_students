@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: gulyaev_sergey (Идентичная структура классов, наследование ExpressionVisitor, методы DerivativeVisitor, ассоциация с Math)
+⚠️ SUSPICIOUS: gulyaev_sergey (Оба используют класс DerivativeVisitor, наследующий ExpressionVisitor, с методами VisitConstant, VisitParameter, VisitBinary, VisitMethodCall, и класс Algebra с методом Differentiate, принимающим Expression~Func~double, double~~. Структура и имена классов почти идентичны, хотя есть небольшие различия в деталях (например, у gulyaev_sergey есть UnaryExpression и MemberExpression).)

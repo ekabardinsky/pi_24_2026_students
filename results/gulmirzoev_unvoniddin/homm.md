@@ -1,1 +1,1 @@
-⚠️ SUSPICIOUS: borodin_nikita (почти идентичная структура: абстрактный MapObject, интерфейсы IOwned/ICombat/ILoot, те же классы-наследники с теми же полями, включая Growth, DailyIncome, PackSize, Name; Interaction с Make(Player, MapObject) и зависимостями от интерфейсов)
+⚠️ PLAGIAT: borodin_nikita (полностью идентичная структура: абстрактный MapObject, интерфейсы IOwned/ICombat/ILoot, те же классы с теми же полями и методами, те же связи наследования и реализации, класс Interaction с Make(Player, MapObject), даже порядок объявления классов совпадает)

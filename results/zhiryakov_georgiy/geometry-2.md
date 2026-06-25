@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: gritsyuk_ivan (диаграммы почти идентичны: одинаковые классы, методы, обобщённый интерфейс IVisitor~TResult~, связи наследования и реализации, включая специфичные связи BoundingBoxVisitor..>RectangularCuboid и BoxifyVisitor..>BoundingBoxVisitor)
+⚠️ SUSPICIOUS: zhukov_andrey (почти идентичная структура: те же классы, интерфейс с generic TResult, те же типы возврата у посетителей, те же связи, отсутствуют только AxisLimits и EnvelopeVisitor)

@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: abdulova_aigul (полная идентичность структуры и классов, различие только в именах методов и отсутствии Enum в проверяемой)
+⚠️ SUSPICIOUS: abdulova_aigul (Оба используют статический класс Algebra с методами Differentiate, разбирают BinaryExpression и MethodCallExpression, структура классов Expression и их наследников практически идентична)

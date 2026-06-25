@@ -1,1 +1,1 @@
-⚠️ PLAGIAT: gritsyuk_ivan (полностью идентичные классы Extensions и ControlDigitAlgo с одинаковыми методами, включая приватный LuhnDouble и ComplementMod10, а также связь "использует")
+⚠️ SUSPICIOUS: gritsyuk_ivan (Оба имеют классы ControlDigitAlgo и Extensions с методами Digits, SumWithWeights, LuhnDouble/TransformLuhnDigits, ComplementMod10/RemainderTo, структура и имена методов очень похожи)
